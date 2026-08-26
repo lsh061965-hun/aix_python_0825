@@ -53,5 +53,9 @@
 
 a = 1000
 b = int(input("송금액을 입력하시오 :"))
+inp0 = (a + b)
+print("총 잔액 : {}".format(inp0))
 
-print("총 잔액 : {}".format(a + b))
+c = int(input("인출액을 입력하시오 :"))
+out0 = (inp0 - c)
+print("총 잔액 : {}".format(out0))
