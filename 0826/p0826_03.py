@@ -38,7 +38,20 @@
 # 아이디, 패스원드를 입력받아 출력하시요.
 # 아이지 : aaaa , 패스워드 : 1111
 
-name = input("아이디 :")
-pw = input("패스워드 :")
-print("아이디 : {}".format(name))
-print("패스워드 : {}".format(pw))
+# a = "aaa"
+# b = 222
+# id = input("아이디 :")
+# pw = input("패스워드 :")
+# print("아이디 : {}".format(a==id))
+# print("패스워드 : {}".format(b==pw))
+
+
+# 출력되도록 하시오.
+# 잔액 : 1000
+# 송금금액 : 100
+# 총금액 1100
+
+a = 1000
+b = int(input("송금액을 입력하시오 :"))
+
+print("총 잔액 : {}".format(a + b))
