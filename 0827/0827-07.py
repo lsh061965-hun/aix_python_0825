@@ -96,7 +96,7 @@
 # print(arr[:-1])  # "-"부호는 역순으로 출력 함, 마지막 제외
 # print(arr[::-1])  # 리스트를 역순으로 정렬
 
-# 문자열도 리스트형태로 더장
+# 문자열도 리스트형태로 저장
 # name = "안녕하세요. 반갑습니다."
 # print(name)
 # print(name[1])
@@ -168,3 +168,9 @@ arr.sort()
 print(arr)
 arr.sort(reverse=True)
 print(arr)
+
+# 원하는 값 in 리스트, 원하는 값 non 리스트
+if 7 in arr:
+    print("원하는 수가 있다.")
+else:
+    print("원하는 수가 없다.")
