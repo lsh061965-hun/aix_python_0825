@@ -16,10 +16,10 @@ arr2.sort()
 # arr.append(num2)
 inp = int(input("숫자를 입력하세요>>"))
 if inp in arr:
-    print("당첨되었습니다.")
+    print("첫번째에 당첨 되었습니다.")
     pass
 elif inp in arr2:
-    print("두번째에 당첨입니다.")
+    print("두번째에 당첨 되었습니다.")
 else:
     print("다음기회에 계속")
 print("랜덤숫자 : ",arr)
