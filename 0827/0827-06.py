@@ -129,4 +129,4 @@ elif mont==12 or mont<=2:
     print("겨울입니다.")
 else:
     print("잘못 입력하였습니다.")
-print("랜덤수 : ",mont)
+print("입력수 : ",mont)
