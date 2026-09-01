@@ -56,7 +56,11 @@ for i in range(1,101):
     tal = tal+i
 print(tal)
 
+<<<<<<< HEAD
 # 200을 엄는 시점의 i의 값과 i번째 합계를 출력하시오
+=======
+# 200을 얻는 시점의 i의 값과 i번째 합계를 출력하시오
+>>>>>>> 8efa1702bab2548fa7d7c19ccd74897d4f857977
 tal1 = 0
 for i in range(1,101):
     if tal1>=200:
