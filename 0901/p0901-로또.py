@@ -1,4 +1,6 @@
-# 로또맞추기 프로그램 구현
+# no = "13"
+# if no.isdigit(): # 문자열의 숫자변환 유무 확인
+#     print(no)
 
 import random
 
@@ -10,6 +12,8 @@ myNum = []  # 6개 입력
 i = 0
 while True:
     i = i+1
+    if i == 6:
+        break
     no = int(input("숫자입력 : "))
     if no > 45:
         print("잘못입력 하셨습니다.")

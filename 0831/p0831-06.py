@@ -15,7 +15,7 @@ while True:
 for i in no:
     if i in noarr:
         count = count + 1
-        ans.append(i)
+        ans.append(i,j)
 
 # 3. 반복문 종료시, 입력된 숫자 모두 출력
 print("리스트 : ",noarr)
